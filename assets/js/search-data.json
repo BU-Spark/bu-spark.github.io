@@ -1,0 +1,206 @@
+{"0": {
+    "doc": "Github Administration",
+    "title": "What is this document",
+    "content": "This document will guide you through administration of a Spark! owned Github repository, adding and managing collaborators and basic branch use. ",
+    "url": "https://bu-spark.github.io/docs/github-admin/#what-is-this-document",
+    "relUrl": "/docs/github-admin/#what-is-this-document"
+  },"1": {
+    "doc": "Github Administration",
+    "title": "Introduction",
+    "content": "Spark! utilizes Github.com to store and manage all code produced from our various projects. It is treated as the single source of truth for code from projects and is used both during active development and for archival purposes. ",
+    "url": "https://bu-spark.github.io/docs/github-admin/#introduction",
+    "relUrl": "/docs/github-admin/#introduction"
+  },"2": {
+    "doc": "Github Administration",
+    "title": "Quick Summary",
+    "content": "To add users to a repository utilize the COLLABORATORS file located in the root of the repository. Put a single Github username per line and commit to main or master. In the case that either branch is protected you can commit to dev. A Github Action will run automatically and send invites to the new users and remove users who are no longer on the list. ",
+    "url": "https://bu-spark.github.io/docs/github-admin/#quick-summary",
+    "relUrl": "/docs/github-admin/#quick-summary"
+  },"3": {
+    "doc": "Github Administration",
+    "title": "In depth",
+    "content": "This part will go over in more detail the process and intricacies of adding and managing users. ",
+    "url": "https://bu-spark.github.io/docs/github-admin/#in-depth",
+    "relUrl": "/docs/github-admin/#in-depth"
+  },"4": {
+    "doc": "Github Administration",
+    "title": "Types of Repositories",
+    "content": "Repositories can be of two types, private or public. Private repositories can only be viewed by those who have been explicitly added whereas public repositories can be viewed by anyone (including non-BU affiliated individuals). In both cases, users must be added as collaborators in order to contribute code to the repository. Look for the label next to the name of the repository on Github to identify if it is public or private. ",
+    "url": "https://bu-spark.github.io/docs/github-admin/#types-of-repositories",
+    "relUrl": "/docs/github-admin/#types-of-repositories"
+  },"5": {
+    "doc": "Github Administration",
+    "title": "Adding or removing a user to a repository",
+    "content": "To add a user you need to add their Github username to the COLLABORATORS file and commit it to the correct branch(typically dev). In this case we will edit the file directly on Github so you do not have to download anything to your computer. Select dev branch . The first step is selecting the dev branch from the list of branches on Github. Create dev if it does not exist . If the dev branch does not exist you will need to create it by typing it in the box as shown below and choosing “Create branch: dev from ‘main’”: . Verify current branch . Once you have created or selected the dev branch you should verify that the you are indeed on the dev branch by looking at the branch indicator on the left corner: . Locate file . Now that you are on the dev branch, locate the COLLABORATORS file in the root of the repository and select it . Edit COLLABORATORS file . Next you need to enter edit mode in order to add Github usernames, this is located on the right hand side of the screen: . Add Github usernames . Now you are editing the file and can add or remove usernames from the list. There should only be one Github username to per line. Do NOT use email addresses, this must be their github account name. Commit changes . Now that the username(s) have been added/removed we need to commit the changes to the dev branch. Scroll down and you will see a small form that you can fill out describing the changes. You only need to fill in the first text field unless further explanation is required – good documentation is always appreciated! Verify that “Commit directly to dev branch” is selected and click “Commit Changes” button. Complete . You have now added/removed users and just need to wait for the automatic process to execute. New users will receive an email invite that will be valid for 7-days. They can click this invitation to become a collaborator on the project and be able to push code to the repository. ",
+    "url": "https://bu-spark.github.io/docs/github-admin/#adding-or-removing-a-user-to-a-repository",
+    "relUrl": "/docs/github-admin/#adding-or-removing-a-user-to-a-repository"
+  },"6": {
+    "doc": "Github Administration",
+    "title": "Why not commit directly to main?",
+    "content": "It might seem odd that we have made the change on dev instead of main or master. We have chosen dev because main and master are typically protected branches that do not allow anyone other than Spark! staff to make changes. This includes making edits to files such as COLLABORATORS or pushing changes from their local machines. For this reason, dev is used throughout the semester and is where students and PMs can make changes to files. ",
+    "url": "https://bu-spark.github.io/docs/github-admin/#why-not-commit-directly-to-main",
+    "relUrl": "/docs/github-admin/#why-not-commit-directly-to-main"
+  },"7": {
+    "doc": "Github Administration",
+    "title": "Github Administration",
+    "content": " ",
+    "url": "https://bu-spark.github.io/docs/github-admin/",
+    "relUrl": "/docs/github-admin/"
+  },"8": {
+    "doc": "Home",
+    "title": "This website is the source for all technical resources of CDS Spark!",
+    "content": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien pellentesque habitant morbi tristique senectus et netus et malesuada. Donec enim diam vulputate ut pharetra sit. Ipsum consequat nisl vel pretium lectus quam. Etiam non quam lacus suspendisse faucibus interdum. In nisl nisi scelerisque eu ultrices vitae auctor eu. Amet mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan. Vel elit scelerisque mauris pellentesque pulvinar. Sagittis id consectetur purus ut faucibus pulvinar elementum. Lacus laoreet non curabitur gravida arcu ac tortor dignissim. In pellentesque massa placerat duis ultricies. Egestas tellus rutrum tellus pellentesque eu. A pellentesque sit amet porttitor. Sitemap View it on GitHub . ",
+    "url": "https://bu-spark.github.io/#this-website-is-the-source-for-all-technical-resources-of-cds-spark",
+    "relUrl": "/#this-website-is-the-source-for-all-technical-resources-of-cds-spark"
+  },"9": {
+    "doc": "Home",
+    "title": "Site Map",
+    "content": "Something . Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sapien pellentesque habitant morbi tristique senectus et netus et malesuada. Donec enim diam vulputate ut pharetra sit. Ipsum consequat nisl vel pretium lectus quam. Etiam non quam lacus suspendisse faucibus interdum. In nisl nisi scelerisque eu ultrices vitae auctor eu. Amet mattis vulputate enim nulla aliquet porttitor lacus luctus accumsan. Vel elit scelerisque mauris pellentesque pulvinar. Sagittis id consectetur purus ut faucibus pulvinar elementum. Lacus laoreet non curabitur gravida arcu ac tortor dignissim. In pellentesque massa placerat duis ultricies. Egestas tellus rutrum tellus pellentesque eu. A pellentesque sit amet porttitor. How to install bat (Ubuntu) . | Install bat through apt (admin privilege required) $ sudo apt install bat . | Make an alias in ~/.bashrc (due to naming conflicts, bat is referred to as batcat in linux) $ echo \"alias cat='batcat'\" . | Use superior cat $ cat ~/.bashrc . | . ",
+    "url": "https://bu-spark.github.io/#site-map",
+    "relUrl": "/#site-map"
+  },"10": {
+    "doc": "Home",
+    "title": "Home",
+    "content": " ",
+    "url": "https://bu-spark.github.io/",
+    "relUrl": "/"
+  },"11": {
+    "doc": "Requesting Compute Resources",
+    "title": "Compute Resources",
+    "content": "Spark! has several compute resources available for student projects. Student’s should not be creating hosted resources on their own personal accounts(AWS, GCP etc) instead they should use the Spark! accounts unless specifically told otherwise by Spark! staff. ",
+    "url": "https://bu-spark.github.io/documentation/compute-resources/request-resources.html#compute-resources",
+    "relUrl": "/documentation/compute-resources/request-resources.html#compute-resources"
+  },"12": {
+    "doc": "Requesting Compute Resources",
+    "title": "Resources Offered",
+    "content": " ",
+    "url": "https://bu-spark.github.io/documentation/compute-resources/request-resources.html#resources-offered",
+    "relUrl": "/documentation/compute-resources/request-resources.html#resources-offered"
+  },"13": {
+    "doc": "Requesting Compute Resources",
+    "title": "AWS Resources",
+    "content": "We can provide most resources available on AWS including EC2(virtual machines), hosted databases etc. ",
+    "url": "https://bu-spark.github.io/documentation/compute-resources/request-resources.html#aws-resources",
+    "relUrl": "/documentation/compute-resources/request-resources.html#aws-resources"
+  },"14": {
+    "doc": "Requesting Compute Resources",
+    "title": "Google Cloud Platform(GCP)",
+    "content": "Similar to AWS we can offer most resources in GCP. ",
+    "url": "https://bu-spark.github.io/documentation/compute-resources/request-resources.html#google-cloud-platformgcp",
+    "relUrl": "/documentation/compute-resources/request-resources.html#google-cloud-platformgcp"
+  },"15": {
+    "doc": "Requesting Compute Resources",
+    "title": "Heroku",
+    "content": "Heroku is a great option if you need to deploy your website or backend. We can add you to our paid account. ",
+    "url": "https://bu-spark.github.io/documentation/compute-resources/request-resources.html#heroku",
+    "relUrl": "/documentation/compute-resources/request-resources.html#heroku"
+  },"16": {
+    "doc": "Requesting Compute Resources",
+    "title": "Github Pages",
+    "content": "If you just need to deploy your static website Github pages is the the simplest option. ",
+    "url": "https://bu-spark.github.io/documentation/compute-resources/request-resources.html#github-pages",
+    "relUrl": "/documentation/compute-resources/request-resources.html#github-pages"
+  },"17": {
+    "doc": "Requesting Compute Resources",
+    "title": "Shared Computing Cluster (SCC)",
+    "content": "The SCC is a service offered by BU that gives you access to a GPUs and CPUs for running long running tasks such as machine learning or other data intensive projects. ",
+    "url": "https://bu-spark.github.io/documentation/compute-resources/request-resources.html#shared-computing-cluster-scc",
+    "relUrl": "/documentation/compute-resources/request-resources.html#shared-computing-cluster-scc"
+  },"18": {
+    "doc": "Requesting Compute Resources",
+    "title": "Other",
+    "content": "We do have some other random resources. If you don’t see what you need, reach out to us and we can help you out! . ",
+    "url": "https://bu-spark.github.io/documentation/compute-resources/request-resources.html#other",
+    "relUrl": "/documentation/compute-resources/request-resources.html#other"
+  },"19": {
+    "doc": "Requesting Compute Resources",
+    "title": "How to request access",
+    "content": "In order to request access to resources please do the following: . | Open an issue on your project’s Github Repository with the following structure: . Title: . Request for Spark! Tech Resources for [your project name] . Content: . - Names + emails of all team members who need access - Detailed list of resources needed - A complete description on how you plan to use the resources - List any relevant course deadlines . | Assign the created issue to @IanSaucy on Github | You also need to send an email to sparkeng at bu dot edu with the link to the Github Issue. You should copy both your PM and course instructor on this email as well. This email is required. | Future correspondence should happen through the Github | If you don’t hear and update within 4 days, ping on Github or via email. | . ",
+    "url": "https://bu-spark.github.io/documentation/compute-resources/request-resources.html#how-to-request-access",
+    "relUrl": "/documentation/compute-resources/request-resources.html#how-to-request-access"
+  },"20": {
+    "doc": "Requesting Compute Resources",
+    "title": "Requesting Compute Resources",
+    "content": " ",
+    "url": "https://bu-spark.github.io/documentation/compute-resources/request-resources.html",
+    "relUrl": "/documentation/compute-resources/request-resources.html"
+  },"21": {
+    "doc": "Spark! Tech Stack",
+    "title": "Introduction",
+    "content": "Spark! has selected a set of technology stacks(tech stacks) and development suggestions with the end goal of having better knowledge transfer between different projects within Spark!. Although a selection of a tech stack from this document is recommended, student teams are free to select a different combination of technologies. Students are encouraged to select one of the preferred tech stacks as there are more resources and assistance available to students through Spark! when using one of the preferred tech stacks. ",
+    "url": "https://bu-spark.github.io/docs/tech-stack/#introduction",
+    "relUrl": "/docs/tech-stack/#introduction"
+  },"22": {
+    "doc": "Spark! Tech Stack",
+    "title": "Universal Features",
+    "content": ". | All projects should ideally be configured with the following solutions: | Each project should have a linter configured and applied at commit and or on push to github Automatic build and deploy(CI/CD) on push to production branches | . ",
+    "url": "https://bu-spark.github.io/docs/tech-stack/#universal-features",
+    "relUrl": "/docs/tech-stack/#universal-features"
+  },"23": {
+    "doc": "Spark! Tech Stack",
+    "title": "Front End Development",
+    "content": " ",
+    "url": "https://bu-spark.github.io/docs/tech-stack/#front-end-development",
+    "relUrl": "/docs/tech-stack/#front-end-development"
+  },"24": {
+    "doc": "Spark! Tech Stack",
+    "title": "React.js + Typescript",
+    "content": "React.JS, commonly referred to as React, is an open-source library based on JavaScript and JSX (a PHP extension). It was released in 2013 by Facebook to create flexible, dynamic user interfaces. Two of React’s most useful features are: . | use of the Virtual DOM (Document Object Model), which facilitates the creation of fast and responsive UIs while maintaining high app performance; | component-based architecture, which is easier to maintain than other architectures. | . TypeScript has gained immense popularity among frontend developers the past few years due to improved maintainability, code consistency, type checking, and future browser support. This trend can also be seen in the industry as well. React gives developers the freedom to choose between Typescript and Javascript. Typescript can natively be integrated with React. Strict typing allows for easy debugging and cleaner code for complex projects. Code also becomes more self descriptive because the types’ definitions also work as documentation. As a result, when you come back to the code after a while it’s easier to remember what it does by just reading it. However Typescript has a slightly higher learning curve - currently not taught by any CS courses right now in BU. Leveraging the Create React App(CRA) Typescript setup is easy to add to existing or new React.js projects. Getting Started . Create React App(CRA) is the easiest way to get started with React.js. | Getting Started with Create React App . | CRA with Typescript . | . Resources: . | https://programmingwithmosh.com/javascript/react-typescript/ | https://insights.stackoverflow.com/survey/2020#most-popular-technologies | https://insights.stackoverflow.com/survey/2020 | . ",
+    "url": "https://bu-spark.github.io/docs/tech-stack/#reactjs--typescript",
+    "relUrl": "/docs/tech-stack/#reactjs--typescript"
+  },"25": {
+    "doc": "Spark! Tech Stack",
+    "title": "Mobile Applications",
+    "content": "There are inherently less options for mobile applications. Either projects are built natively in which case, only a single option exists for each platform. Other projects would work well with a cross-platform development framework and should use one of the options below. Backend choices can be chosen from the backend section below. ",
+    "url": "https://bu-spark.github.io/docs/tech-stack/#mobile-applications",
+    "relUrl": "/docs/tech-stack/#mobile-applications"
+  },"26": {
+    "doc": "Spark! Tech Stack",
+    "title": "Flutter - Cross-platform Mobile App Dev",
+    "content": "Flutter is an open-source portable UI toolkit built by Google, it’s a comprehensive app Software Development Kit (SDK), complete with widgets and tools. Flutter enables cross-platform app development. It gives developers an easy way to build and deploy visually attractive, natively-compiled applications for mobile (iOS, Android), web, and desktop – all using a single codebase. Features: . | It’s based on Dart – a fast, object-oriented programming language. It’s relatively new and easy to learn – especially for experienced developers more familiar with Java and C#. | The architecture is based on the very popular reactive programming (it follows the same style as React) | It provides its own widgets(similar to components in React), drawn from its own high-performance rendering engine – these are fast, attractive and customizable | Excellent documentation with strong support from the Flutter team | Very fast development time, good developer experience | . Getting Started . Google provides excelent documentation and can be leveraged as your main source for documentation. | Getting Started with React | . Flutter Add-ons . This is a non-comprehensive list of extensions and add-ons to the core flutter framework that Spark! recommends. State Management . This is an inherently opinionated and project driven choice but we recommend the following: . | Flutter RiverPod - Most modern and fully featured. Stepper learning curve | Provider - Less features but easier to learn, superseded by RiverPod | . ",
+    "url": "https://bu-spark.github.io/docs/tech-stack/#flutter---cross-platform-mobile-app-dev",
+    "relUrl": "/docs/tech-stack/#flutter---cross-platform-mobile-app-dev"
+  },"27": {
+    "doc": "Spark! Tech Stack",
+    "title": "Backend",
+    "content": "The backend of each project can be built using one of the combinations below. Severless provides the fastest time to run but does not enable as much customization as other options. ",
+    "url": "https://bu-spark.github.io/docs/tech-stack/#backend",
+    "relUrl": "/docs/tech-stack/#backend"
+  },"28": {
+    "doc": "Spark! Tech Stack",
+    "title": "Google Firebase",
+    "content": "Firebase provides a pre-configured backend hosted and run by Google. Easy to learn and use. ",
+    "url": "https://bu-spark.github.io/docs/tech-stack/#google-firebase",
+    "relUrl": "/docs/tech-stack/#google-firebase"
+  },"29": {
+    "doc": "Spark! Tech Stack",
+    "title": "Python Based API",
+    "content": "Build a Python based API using: . | Flask, or FastAPI | JWT or OAuth for all authentication | Hosted SQL Database | All running inside containers | . ",
+    "url": "https://bu-spark.github.io/docs/tech-stack/#python-based-api",
+    "relUrl": "/docs/tech-stack/#python-based-api"
+  },"30": {
+    "doc": "Spark! Tech Stack",
+    "title": "Node.js Based API",
+    "content": "Node.js API using the following technologies . | Node.js + Express | JWT or OAuth for authenticated requests | Hosted SQL Database All running inside containers | . ",
+    "url": "https://bu-spark.github.io/docs/tech-stack/#nodejs-based-api",
+    "relUrl": "/docs/tech-stack/#nodejs-based-api"
+  },"31": {
+    "doc": "Spark! Tech Stack",
+    "title": "Spark! Tech Stack",
+    "content": " ",
+    "url": "https://bu-spark.github.io/docs/tech-stack/",
+    "relUrl": "/docs/tech-stack/"
+  },"32": {
+    "doc": "test",
+    "title": "Test",
+    "content": "Testing for navigation pages with children… . ",
+    "url": "https://bu-spark.github.io/documentation/tech-stack/test.html#test",
+    "relUrl": "/documentation/tech-stack/test.html#test"
+  },"33": {
+    "doc": "test",
+    "title": "test",
+    "content": " ",
+    "url": "https://bu-spark.github.io/documentation/tech-stack/test.html",
+    "relUrl": "/documentation/tech-stack/test.html"
+  }
+}
